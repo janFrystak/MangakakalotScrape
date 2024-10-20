@@ -49,7 +49,7 @@ def main():
     session = requests.Session()
     username = input("Enter your username: ")  # Prompt for username
     password = input("Enter your password: ")  # Prompt for password
-    print("Starting the login process...")
+    print("Starting the login  process...")
 
     # First, get the login page to retrieve the CAPTCHA
     response = session.get('https://user.manganelo.com/login?l=mangakakalot&re_l=login')
